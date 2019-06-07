@@ -3,7 +3,12 @@ body {
     padding: 20px;
     margin: 0;
   }
-  h1, h2, p, ul, li {
+  h1, h2  {
+    font-family: Courier;
+    color: #FFF;
+  }
+
+  p, ul, li {
     font-family: Courier;
     color: #FFF;
   }
@@ -23,7 +28,6 @@ body {
     display: inline-block;
   }
   .content {
-    background-color: #FFF;
     padding: 20px;
   }
   .content h2 {

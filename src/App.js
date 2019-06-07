@@ -16,7 +16,7 @@ class App extends Component{
     return(
       <HashRouter>
       <div>
-          <h1>nitish gopu</h1>
+          <h1>Nitish Gopu</h1>
           <ul className="header">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
