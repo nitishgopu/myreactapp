@@ -1,38 +1,50 @@
 body {
-    background-color: #113044;
+    background-color: #e0e0e0;
     padding: 20px;
     margin: 0;
+
   }
-  h1, h2  {
+  h1 {
     font-family: Courier;
-    color: #FFF;
+    color: rgb(12, 12, 12);
+    padding: 20px;
+    margin-left:80px; 
+
+  }
+
+  h2 {
+    font-family: Courier;
+    color: rgb(12, 12, 12);
   }
 
   p, ul, li {
     font-family: Courier;
-    color: #FFF;
+    color: rgb(12, 12, 12);
   }
   ul.header li {
     display: inline;
+    padding: 40px;
     list-style-type: none;
-    margin: 0;
+    margin: 40px;
   }
   ul.header {
-    padding: 0;
+    padding: 0px;
+    padding-top: 80px
   }
   ul.header li a {
-    color: #FFF;
+    color: rgb(12, 12, 12);
     font-weight: bold;
     text-decoration: none;
     padding: 20px;
     display: inline-block;
   }
   .content {
-    padding: 20px;
+    padding: 40px;
+    margin-left: 40px;
   }
   .content h2 {
     padding: 0;
-    margin: 0;
+    margin-left: 20px;
   }
   .content li {
     margin-bottom: 10px;
