@@ -1,5 +1,5 @@
 body {
-    background-color: #e0e0e0;
+    background-color: #FFFFFF;
     padding: 20px;
     margin: 0;
 
@@ -8,7 +8,7 @@ body {
     font-family: Courier;
     color: rgb(12, 12, 12);
     padding: 20px;
-    margin-left:80px; 
+    margin-left:80px;
 
   }
 
@@ -21,17 +21,18 @@ body {
     font-family: Courier;
     color: rgb(12, 12, 12);
   }
-  ul.header li {
+  div.header li {
     display: inline;
     padding: 40px;
     list-style-type: none;
     margin: 40px;
   }
-  ul.header {
+  div.header {
     padding: 0px;
-    padding-top: 80px
+    padding-top: 80px;
+
   }
-  ul.header li a {
+  div.header li a {
     color: rgb(12, 12, 12);
     font-weight: bold;
     text-decoration: none;
@@ -43,6 +44,10 @@ body {
     margin-left: 40px;
   }
   .content h2 {
+    padding: 0;
+    margin-left: 20px;
+  }
+  .content p {
     padding: 0;
     margin-left: 20px;
   }

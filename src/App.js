@@ -17,11 +17,11 @@ class App extends Component{
       <HashRouter>
       <div>
           <h1>Nitish Gopu</h1>
-          <ul className="header">
+          <div className="header">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
-          </ul>
+          </div>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={Stuff}/>
