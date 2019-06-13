@@ -1,11 +1,13 @@
 {
-  "name": "App",
+  "name": "myreactapp",
   "version": "1.0.0",
   "description": "Hello",
   "main": "index.js",
+  "homepage": "http://nitishgopu.github.io/myreactapp",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server -d --config webpack.dev.config.js"
+    "start": "webpack-dev-server -d --config webpack.dev.config.js",
+    "deploy": "gh-pages -d build"  
   },
   "author": "Nitish",
   "license": "ISC",
@@ -17,6 +19,7 @@
     "@webpack-cli/remove": "^0.1.5",
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
+    "gh-pages": "^2.0.1",
     "style-loader": "^0.23.0",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",
