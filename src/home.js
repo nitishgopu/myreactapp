@@ -5,7 +5,7 @@ class Home extends Component {
     return (
       <div align="center">
         <h2>HELLO!</h2>
-        <p>I'm a Software Engineer at WalmartLabs. I work on creating and designing new products and features on Walmart.com
+        <p>I'm a Machine Learning Engineer at WalmartLabs. I spend most of my time traning and implementing algorithms that improve the E-commerce experience for Walmart Customers.Presently I work on the Last Mile Team.
         </p>
       </div>
     );
